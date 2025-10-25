@@ -143,27 +143,64 @@ export default function Header() {
               </div>
 
               {/* Right side: Certifications with enhanced tooltips */}
-              <div className="flex items-center gap-2 text-xs">
+              <div
+                className="
+                  flex flex-wrap items-center justify-center sm:justify-end 
+                  gap-x-2 gap-y-1 text-[11px] sm:text-xs mt-1 sm:mt-0
+                "
+              >
+                {/* ISO */}
                 <div className="group relative">
-                  <span className="px-2 py-1 bg-[rgb(26,31,113)]/5 text-[rgb(26,31,113)] rounded font-medium cursor-help transition-all duration-200 hover:bg-[rgb(26,31,113)]/10">
+                  <span
+                    className="
+                      px-2 py-[2px] bg-[rgb(26,31,113)]/5 text-[rgb(26,31,113)] 
+                      rounded font-semibold cursor-help transition-all duration-200 
+                      hover:bg-[rgb(26,31,113)]/10 text-[11px]
+                    "
+                  >
                     ISO 9001:2015
                   </span>
-                  <div className="absolute top-full right-0 mt-2 px-3 py-2 bg-[rgb(11,14,35)] text-white text-xs rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 whitespace-nowrap z-50">
+                  <div
+                    className="
+                      absolute top-full right-0 mt-1 px-3 py-2 bg-[rgb(11,14,35)] 
+                      text-white text-[11px] rounded-lg shadow-lg opacity-0 invisible 
+                      group-hover:opacity-100 group-hover:visible transition-all 
+                      duration-200 whitespace-nowrap z-50
+                    "
+                  >
                     Quality Management System
-                    <div className="absolute -top-1 right-4 w-2 h-2 bg-[rgb(11,14,35)] rotate-45"></div>
+                    <div className="absolute -top-1 right-3 w-2 h-2 bg-[rgb(11,14,35)] rotate-45"></div>
                   </div>
                 </div>
-                <span className="text-[rgb(229,231,235)]">·</span>
+
+                {/* Separador (solo en pantallas medianas y grandes) */}
+                <span className="hidden sm:inline text-gray-400">·</span>
+
+                {/* AS9100 */}
                 <div className="group relative">
-                  <span className="px-2 py-1 bg-[rgb(26,31,113)]/5 text-[rgb(26,31,113)] rounded font-medium cursor-help transition-all duration-200 hover:bg-[rgb(26,31,113)]/10">
+                  <span
+                    className="
+                      px-2 py-[2px] bg-[rgb(26,31,113)]/5 text-[rgb(26,31,113)] 
+                      rounded font-semibold cursor-help transition-all duration-200 
+                      hover:bg-[rgb(26,31,113)]/10 text-[11px]
+                    "
+                  >
                     AS9100D Certified
                   </span>
-                  <div className="absolute top-full right-0 mt-2 px-3 py-2 bg-[rgb(11,14,35)] text-white text-xs rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 whitespace-nowrap z-50">
+                  <div
+                    className="
+                      absolute top-full right-0 mt-1 px-3 py-2 bg-[rgb(11,14,35)] 
+                      text-white text-[11px] rounded-lg shadow-lg opacity-0 invisible 
+                      group-hover:opacity-100 group-hover:visible transition-all 
+                      duration-200 whitespace-nowrap z-50
+                    "
+                  >
                     Aerospace Standard Certified
-                    <div className="absolute -top-1 right-4 w-2 h-2 bg-[rgb(11,14,35)] rotate-45"></div>
+                    <div className="absolute -top-1 right-3 w-2 h-2 bg-[rgb(11,14,35)] rotate-45"></div>
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
         </motion.div>
