@@ -1,0 +1,20 @@
+[
+  {
+    "id": "aerospace",
+    "name": "Aerospace",
+    "benefit": "Precision and compliance for aerospace components",
+    "description": "AS9100D certified manufacturing for critical flight components"
+  },
+  {
+    "id": "medical",
+    "name": "Medical Devices",
+    "benefit": "Biocompatible materials and sterile manufacturing",
+    "description": "FDA-compliant processes for medical device components"
+  },
+  {
+    "id": "defense",
+    "name": "Defense",
+    "benefit": "Secure supply chain and ITAR compliance",
+    "description": "Trusted partner for defense contractors and military applications"
+  }
+]

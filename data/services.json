@@ -1,0 +1,20 @@
+[
+  {
+    "id": "precision-stamping",
+    "title": "Precision Stamping",
+    "description": "High-speed progressive and transfer stamping for complex metal parts",
+    "benefits": ["Tolerances to ±0.001\"", "High-volume production", "Cost-effective tooling"]
+  },
+  {
+    "id": "sheet-metal-fabrication",
+    "title": "Sheet Metal Fabrication",
+    "description": "Custom sheet metal forming, bending, and assembly services",
+    "benefits": ["Laser cutting precision", "CNC bending", "Welding & assembly"]
+  },
+  {
+    "id": "cnc-machining",
+    "title": "CNC Machining",
+    "description": "Multi-axis CNC machining for intricate metal components",
+    "benefits": ["3, 4, and 5-axis capabilities", "Tight tolerances", "Complex geometries"]
+  }
+]
